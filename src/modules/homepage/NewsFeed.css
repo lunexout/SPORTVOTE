@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  font-family: "geofont";
+  font-family: HelveticaNeue-Medium;
   font-weight: bold;
 }
 .MuiTabs-flexContainer {
@@ -62,6 +62,6 @@
 }
 .news-txt {
   color: #fff;
-  font-family: geofont;
+  font-family: HelveticaNeue-Medium;
   font-size: 18px;
 }
