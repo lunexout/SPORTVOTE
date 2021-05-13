@@ -1,0 +1,25 @@
+.game-img-vs-cont {
+
+                              display: flex;
+                              padding: 10px;
+                              justify-content: center;
+                              align-items: center;
+                              /* border:1px solid white; */
+                              /* max-width: 170px; */
+                              /* left: 50%; */
+                              /* position: absolute; */
+                              /* transform: translateX(-50%); */
+}
+.team-name{
+    color: #8FA3B0; font-family: 'HelveticaNeue-Medium';
+}
+.game-hover:hover{
+    background-color:#0A0E13;
+    cursor:pointer;
+}
+@media all and (max-width:400px){
+    .team-name {
+        font-size: 12px;
+        font-family: 'HelveticaNeue-Medium';
+    }
+}

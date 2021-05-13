@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Footer() {
+export const Footer = () => {
     return(
         <>
-            {/* build next time */}
+            <h1>footer</h1>
         </>
     )
 }

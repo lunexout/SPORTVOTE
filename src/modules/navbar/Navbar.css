@@ -9,9 +9,23 @@
   text-decoration: none;
   color: white;
 }
+.navitem:hover {
+  border-bottom: 2px solid green;
+
+}
 .nav-active {
   border-bottom: 2px solid green;
 }
 .nav-active1 {
   border-bottom: 2px solid red;
+}
+.logbtn {
+  color: #fff !important;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  background-color: #1A9F21 !important;
+}
+.regbtn {
+  color: #fff !important;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  background-color: #4B5053 !important;
 }

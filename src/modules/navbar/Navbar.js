@@ -9,6 +9,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import { Button } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -139,6 +140,12 @@ export const Navbar = () => {
               inputProps={{ "aria-label": "search" }}
             />
           </div>
+          <Button variant="contained" className="logbtn"  style={{backgroundColor:'#1CA84E !important',fontFamily: 'HelveticaNeue-Regular',marginLeft:40}}>
+            შესვლა
+          </Button>
+          <Button variant="contained" className="regbtn"  style={{background:'#1CA84E !important',fontFamily: 'HelveticaNeue-Regular',marginLeft:10}}>
+            რეგისტრაცია
+          </Button>
         </Toolbar>
       </AppBar>
     </div>
