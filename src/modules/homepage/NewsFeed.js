@@ -42,15 +42,8 @@ function a11yProps(index) {
   };
 }
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-    // backgroundColor: theme.palette.background.paper,
-  },
-}));
 
 export const NewsFeed = () => {
-  const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -77,7 +70,7 @@ export const NewsFeed = () => {
                         <Grid item xs={12} md={6} lg={4}>
                         <div className="newsimg">
                         <div className='newsimg-div'>
-                            <img className='newsimg-styles' src='https://www.teahub.io/photos/full/320-3204960_real-madrid-vs-arsenal-international-champions-cup.jpg'/>
+                            <img alt='img' className='newsimg-styles' src='https://www.teahub.io/photos/full/320-3204960_real-madrid-vs-arsenal-international-champions-cup.jpg'/>
                         </div>
                         <p className='news-txt'>
                                 'მასთან ერთად ვითამაშებდი' - რონალდომ <br/>სასურველი თანაგუნდელი დაასახელა
@@ -87,7 +80,7 @@ export const NewsFeed = () => {
                         <Grid item xs={12} md={6} lg={4}>
                         <div className="newsimg">
                         <div className='newsimg-div'>
-                            <img className='newsimg-styles' src='https://www.teahub.io/photos/full/320-3204960_real-madrid-vs-arsenal-international-champions-cup.jpg'/>
+                            <img alt='img' className='newsimg-styles' src='https://www.teahub.io/photos/full/320-3204960_real-madrid-vs-arsenal-international-champions-cup.jpg'/>
                         </div>
                         <p className='news-txt'>
                                 'მასთან ერთად ვითამაშებდი' - რონალდომ2 <br/>სასურველი თანაგუნდელი დაასახელა
@@ -97,7 +90,7 @@ export const NewsFeed = () => {
                         <Grid item xs={12} md={6} lg={4}>
                         <div className="newsimg">
                         <div className='newsimg-div'>
-                            <img className='newsimg-styles' src='https://www.teahub.io/photos/full/320-3204960_real-madrid-vs-arsenal-international-champions-cup.jpg'/>
+                            <img alt='img' className='newsimg-styles' src='https://www.teahub.io/photos/full/320-3204960_real-madrid-vs-arsenal-international-champions-cup.jpg'/>
                         </div>
                         <p className='news-txt'>
                                 'მასთან ერთად ვითამაშებდი' - რონალდომ3 <br/>სასურველი თანაგუნდელი დაასახელა
@@ -107,7 +100,7 @@ export const NewsFeed = () => {
                         <Grid item xs={12} md={6} lg={4}>
                         <div className="newsimg">
                         <div className='newsimg-div'>
-                            <img className='newsimg-styles' src='https://www.teahub.io/photos/full/320-3204960_real-madrid-vs-arsenal-international-champions-cup.jpg'/>
+                            <img alt='img' className='newsimg-styles' src='https://www.teahub.io/photos/full/320-3204960_real-madrid-vs-arsenal-international-champions-cup.jpg'/>
                         </div>
                         <p className='news-txt'>
                                 'მასთან ერთად ვითამაშებდი' - რონალდომ4 <br/>სასურველი თანაგუნდელი დაასახელა
