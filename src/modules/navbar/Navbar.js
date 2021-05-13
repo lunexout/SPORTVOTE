@@ -97,40 +97,31 @@ export const Navbar = () => {
             to="/"
             exact
             activeClassName="nav-active"
-            className="geofont navitem"
+            className="navitem"
+            style={{fontFamily: "HelveticaNeue-Medium"}}
             variant="h6"
             noWrap
-            style={{ marginRight: "20px" }}
+            style={{ marginRight: "20px", fontFamily: "HelveticaNeue-Regular" }}
           >
             მთავარი
           </NavLink>
           <NavLink
             to="/games"
             activeClassName="nav-active"
-            className="geofont navitem"
+            className="navitem"
             variant="h6"
             noWrap
-            style={{ marginRight: "10px" }}
+            style={{ marginRight: "10px", fontFamily: "HelveticaNeue-Regular" }}
           >
             თამაშები
           </NavLink>
-          {/* <NavLink
-            to="/news"
-            activeClassName="nav-active"
-            className="geofont navitem"
-            variant="h6"
-            noWrap
-            style={{ marginRight: "10px" }}
-          >
-            სიახლეები
-          </NavLink> */}
-
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
             </div>
             <InputBase
               placeholder="ძიება..."
+              style={{fontFamily: "HelveticaNeue-Medium"}}
               classes={{
                 root: classes.inputRoot,
                 input: classes.inputInput,

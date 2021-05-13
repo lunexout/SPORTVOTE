@@ -1,3 +1,18 @@
+@font-face {
+  src: url("./fonts/HelveticaNeueLTGEO-Medium.a2425724.woff2");
+  font-family: HelveticaNeue-Medium;
+}
+
+@font-face {
+  src: url("./fonts/HelveticaNeueLTGEO-Regular.3c542304\ \(1\).woff2");
+  font-family: HelveticaNeue-Regular;
+}
+
+@font-face {
+  src: url("./fonts/HelveticaNeueLTGEO-Bold.719611bc.woff2");
+  font-family: HelveticaNeue-Bold;
+}
+
 body {
   margin: 0;
   padding: 0;
