@@ -100,7 +100,7 @@ export const Navbar = () => {
             className="geofont navitem"
             variant="h6"
             noWrap
-            style={{ marginRight: "20px" }}
+            style={{ marginRight: "20px", fontFamily: "HelveticaNeue-Regular" }}
           >
             მთავარი
           </NavLink>
@@ -110,7 +110,7 @@ export const Navbar = () => {
             className="geofont navitem"
             variant="h6"
             noWrap
-            style={{ marginRight: "10px" }}
+            style={{ marginRight: "10px", fontFamily: "HelveticaNeue-Regular" }}
           >
             თამაშები
           </NavLink>
@@ -131,6 +131,7 @@ export const Navbar = () => {
             </div>
             <InputBase
               placeholder="ძიება..."
+              style={{ fontFamily: "HelveticaNeue-Medium" }}
               classes={{
                 root: classes.inputRoot,
                 input: classes.inputInput,
