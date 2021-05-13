@@ -48,6 +48,7 @@ export const Games = () => {
                             <img
                               style={{ height: 40, objectFit: "contain" }}
                               src={game.firstParticipant.image.src}
+                              alt=""
                             />
 
                             <div
@@ -65,6 +66,7 @@ export const Games = () => {
                             <img
                               style={{ height: 40, objectFit: "contain" }}
                               src={game.secondParticipant.image.src}
+                              alt=""
                             />
                             <p style={{ color: "#fff" }}>
                               {game.title.split("-")[1]}
