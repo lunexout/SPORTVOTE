@@ -1,0 +1,55 @@
+.slider-img {
+    height: 240px !important;
+    border-radius: 10px !important;
+}
+.slider-img-tommorow {
+    height: 140px !important;
+    border-radius: 10px !important;
+}
+.owl-prev {
+    position: absolute;
+    left: -25px;
+    top: 30%;
+    transform: rotateY(-30%);
+    font-size: 15x !important;
+    background-color: #0A0E13 !important;
+    border: 1px solid #0A0E13 !important;
+    border-radius: 200px !important;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff !important;
+    font-family: geofont !important;
+}
+.owl-next {
+    position: absolute;
+    right: -25px;
+    top: 30%;
+    font-size: 15x !important;
+    transform: rotateY(-30%);
+    background-color: #0A0E13 !important;
+    border: 1px solid #0A0E13 !important;
+    border-radius: 200px !important;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff !important;
+    font-family: geofont !important;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #1DB954;
+}
+.MuiContainer-root {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}

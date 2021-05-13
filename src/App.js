@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import { LinearProgress } from '@material-ui/core';
+import { Content } from './modules/homepage/Content';
+import { Slider } from './modules/homepage/Slider';
+import {Navbar} from './modules/navbar/Navbar'
+export const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <LinearProgress /> */}
+      <LinearProgress style={{background: "#1A9F21", color: 'white'}} />
+      <Navbar/>
+      <Slider/>
+      <Content style={{margin: 0,}}/>
     </div>
   );
 }
 
-export default App;

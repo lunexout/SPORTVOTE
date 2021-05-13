@@ -1,0 +1,67 @@
+.main-newsfeed-cont {
+    margin-top: 30px;
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    flex-grow: 1,
+}
+.MuiTab-wrapper {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-family: 'geofont';
+    font-weight: bold;
+}
+.MuiTabs-flexContainer {
+    display: flex;
+    background-color: #0F1519;
+}
+
+.MuiBox-root {
+    padding: 0px !important; 
+    background-color: #0F1519 !important;
+    border: 1px solid white;
+    /* height: 950px; */
+
+}
+.PrivateTabIndicator-colorSecondary-11 {
+    background-color: #008000 !important;
+}
+
+.newsimg:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    
+}
+.newsimg {
+    width: 400px;
+}
+.newsimg-div{
+    background-color: '#0A0E13'; 
+    height: 250px; width: 400px; 
+    overflow: 'hidden' !important;
+}
+.newsimg-styles {
+    width: 400px;   
+    height: 250px;
+    border-radius: 20px !important;
+
+}
+.newsfeed-inside-cont{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 50%;
+    padding: 0;
+    width: 95%;
+    max-width: 1400px;
+    transform: translateX(-50%);
+}
+.news-txt {
+    color: #fff; font-family: geofont; font-size: 18px;
+}

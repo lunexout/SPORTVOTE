@@ -1,0 +1,20 @@
+@font-face {
+    font-family: GEOFONT;
+    src: url("./../../fonts/bpg_nino_mtavruli_normal.ttf");
+  }
+  
+.geofont {
+    font-family: GEOFONT !important;
+}
+.navitem {
+    padding: 20.5px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: white;
+}
+.nav-active {
+    border-bottom: 2px solid green; 
+}
+.nav-active1 {
+    border-bottom: 2px solid red; 
+}
