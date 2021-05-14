@@ -1,7 +1,7 @@
 import { Switch, Route } from "react-router-dom";
 import { Home } from "./components/Home/Home";
 import { Games } from "./components/Games/Games";
-import Signup from "./pages/Signin/Signin";
+import Signin from "./pages/Signin/Signin";
 
 export const App = () => {
   return (
@@ -9,7 +9,7 @@ export const App = () => {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/games" exact component={Games} />
-          <Route path="/signin" exact component={Signup} />
+          <Route path="/signin" exact component={Signin} />
         </Switch>
     </>
   );
