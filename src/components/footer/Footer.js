@@ -8,61 +8,61 @@ export const Footer = () => {
         <div className="container-footer">
           <div className="row-footer">
             <div className="footer-col">
-              <h4>company</h4>
+              <h4>ჩვენ შესახებ</h4>
               <ul>
                 <li>
-                  <a href="#">about us</a>
+                  <a href="#">წესები</a>
                 </li>
                 <li>
-                  <a href="#">our services</a>
+                  <a href="#">კონფიდენციალურობა</a>
                 </li>
                 <li>
-                  <a href="#">privacy policy</a>
+                  <a href="#">კონტაქტი</a>
                 </li>
                 <li>
-                  <a href="#">affiliate program</a>
+                  <a href="#">ხშირად დასმული კითხვები</a>
                 </li>
               </ul>
             </div>
             <div className="footer-col">
-              <h4>get help</h4>
+              <h4>ნავიგაცია</h4>
               <ul>
                 <li>
-                  <a href="#">FAQ</a>
+                  <a href="#">შესვლა</a>
                 </li>
                 <li>
-                  <a href="#">shipping</a>
+                  <a href="#">რეგისტრაცია</a>
                 </li>
                 <li>
-                  <a href="#">returns</a>
+                  <a href="#">თამაშები</a>
                 </li>
                 <li>
-                  <a href="#">order status</a>
+                  <a href="#">ძიება</a>
                 </li>
                 <li>
-                  <a href="#">payment options</a>
+                  <a href="#">კომპონენტი</a>
                 </li>
               </ul>
             </div>
             <div className="footer-col">
-              <h4>online shop</h4>
+              <h4>ლოგარითმი</h4>
               <ul>
                 <li>
-                  <a href="#">watch</a>
+                  <a href="#">ალბერტ აინშტაინი</a>
                 </li>
                 <li>
-                  <a href="#">bag</a>
+                  <a href="#">ნიკა შამილაძე</a>
                 </li>
                 <li>
-                  <a href="#">shoes</a>
+                  <a href="#">მარკ ცუკერბერგი</a>
                 </li>
                 <li>
-                  <a href="#">dress</a>
+                  <a href="#">ილონ მასკი</a>
                 </li>
               </ul>
             </div>
             <div className="footer-col">
-              <h4>follow us</h4>
+              <h4>სოციალური ქსელები</h4>
               <div className="social-links">
                 <a href="#">
                   <i className="fab fa-facebook-f"></i>

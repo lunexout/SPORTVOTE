@@ -1,0 +1,64 @@
+body {
+  background-color: #0a0e13 !important;
+  color: #8FA3B0 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.helvetica-medium {
+  font-family: HelveticaNeue-Medium !important;
+}
+
+
+.helvetica-regular {
+  font-family: HelveticaNeue-Regular !important;
+}
+
+
+.helvetica-bold {
+  font-family: HelveticaNeue-Bold !important;
+}
+
+.input__signin input {
+  color: #8FA3B0 !important;
+  font-family: HelveticaNeue-Medium !important;
+}
+
+.input__signin label {
+  color: #8FA3B0 !important;
+  font-family: HelveticaNeue-Bold !important;
+}
+
+.form__component fieldset {
+  border: 1px solid #8FA3B0;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #8FA3B0 !important;
+}
+
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #1a9f21 !important;
+  border-width: 2px !important;
+}
+
+.optimization__focused__input fieldset legend {
+  width: 155px !important;
+}
+
+.password__optimization__focused__input fieldset legend {
+  width: 60px !important;
+}
+
+.checkbox {
+  color: #8FA3B0 !important;
+}
+
+.button__hover:hover {
+  background-color: #1A9F21 !important;
+}
+
+.button__hover {
+  font-family: HelveticaNeue-Medium !important;
+}

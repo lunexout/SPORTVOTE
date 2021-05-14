@@ -1,5 +1,5 @@
 .container-footer {
-  max-width: 1170px;
+  max-width: 1400px;
   margin: auto;
 }
 .row-footer {
@@ -10,6 +10,9 @@ ul {
   list-style: none;
 }
 .footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
   background-color: #0f1519;
   padding: 70px 0;
 }
@@ -24,6 +27,8 @@ ul {
   margin-bottom: 35px;
   font-weight: 500;
   position: relative;
+  font-family: HelveticaNeue-Bold;
+  user-select: none;
 }
 .footer-col h4::before {
   content: "";
@@ -47,10 +52,10 @@ ul {
   color: #bbbbbb;
   display: block;
   transition: all 0.3s ease;
+  font-family: HelveticaNeue-Regular;
 }
 .footer-col ul li a:hover {
   color: #ffffff;
-  padding-left: 8px;
 }
 .footer-col .social-links a {
   display: inline-block;
