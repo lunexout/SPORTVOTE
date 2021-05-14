@@ -140,7 +140,7 @@ export const Navbar = () => {
               inputProps={{ "aria-label": "search" }}
             />
           </div>
-          <Button variant="contained" className="logbtn"  style={{backgroundColor:'#1CA84E !important',fontFamily: 'HelveticaNeue-Regular',marginLeft:40}}>
+          <Button href="/signin" variant="contained" className="logbtn"  style={{backgroundColor:'#1CA84E !important',fontFamily: 'HelveticaNeue-Regular',marginLeft:40}}>
             შესვლა
           </Button>
           <Button variant="contained" className="regbtn"  style={{background:'#1CA84E !important',fontFamily: 'HelveticaNeue-Regular',marginLeft:10}}>
